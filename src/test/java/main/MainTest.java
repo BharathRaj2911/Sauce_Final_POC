@@ -29,7 +29,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
-public class NewTest {
+public class MainTest {
 
 	WebDriver driver;
 
@@ -157,11 +157,11 @@ public class NewTest {
 	@DataProvider(name = "create")
 	public Object[][] dataSet1() {
 
-		return new Object[][] { { "standard_user", "secret_sauce" },
-//				{"locked_out_user", "secret_sauce"},
-//				 {"problem_user","secret_sauce"},
-//				{"performance_glitch_user","secret_sauce"}
-		};
+		return new Object[][] { { "standard_user", "secret_sauce" }
+
+//				{ "problem_user", "secret_sauce" }, { "performance_glitch_user", "secret_sauce" },
+//				{ "locked_out_user", "secret_sauce" }
+			};
 	}
 
 	@AfterMethod

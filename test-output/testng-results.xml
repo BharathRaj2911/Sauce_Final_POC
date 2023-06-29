@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-29T12:15:59 IST" name="Default suite" finished-at="2023-06-29T12:16:39 IST" duration-ms="39343">
+  <suite started-at="2023-06-29T21:26:03 IST" name="Suite" finished-at="2023-06-29T21:26:42 IST" duration-ms="38248">
     <groups>
     </groups>
-    <test started-at="2023-06-29T12:15:59 IST" name="Default test" finished-at="2023-06-29T12:16:39 IST" duration-ms="39343">
-      <class name="main.NewTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:main.NewTest@2eae8e6e]" started-at="2023-06-29T12:15:59 IST" name="beforeClass" finished-at="2023-06-29T12:16:02 IST" duration-ms="2188" status="PASS">
+    <test started-at="2023-06-29T21:26:03 IST" name="Test" finished-at="2023-06-29T21:26:42 IST" duration-ms="38248">
+      <class name="main.MainTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:main.MainTest@8f2ef19]" started-at="2023-06-29T21:26:03 IST" name="beforeClass" finished-at="2023-06-29T21:26:05 IST" duration-ms="1779" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.NewTest@2eae8e6e]" started-at="2023-06-29T12:16:02 IST" name="beforeMethod" finished-at="2023-06-29T12:16:02 IST" duration-ms="49" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.MainTest@8f2ef19]" started-at="2023-06-29T21:26:05 IST" name="beforeMethod" finished-at="2023-06-29T21:26:05 IST" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:main.NewTest@2eae8e6e]" started-at="2023-06-29T12:16:02 IST" name="login" data-provider="create" finished-at="2023-06-29T12:16:07 IST" duration-ms="5493" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:main.MainTest@8f2ef19]" started-at="2023-06-29T21:26:05 IST" name="login" data-provider="create" finished-at="2023-06-29T21:26:11 IST" duration-ms="5383" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -31,99 +31,99 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.NewTest@2eae8e6e]" started-at="2023-06-29T12:16:07 IST" name="afterMethod" finished-at="2023-06-29T12:16:07 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.MainTest@8f2ef19]" started-at="2023-06-29T21:26:11 IST" name="afterMethod" finished-at="2023-06-29T21:26:11 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.NewTest@2eae8e6e]" started-at="2023-06-29T12:16:07 IST" name="beforeMethod" finished-at="2023-06-29T12:16:07 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.MainTest@8f2ef19]" started-at="2023-06-29T21:26:11 IST" name="beforeMethod" finished-at="2023-06-29T21:26:11 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="Home()[pri:1, instance:main.NewTest@2eae8e6e]" started-at="2023-06-29T12:16:07 IST" name="Home" finished-at="2023-06-29T12:16:16 IST" duration-ms="8706" status="PASS">
+        <test-method signature="Home()[pri:1, instance:main.MainTest@8f2ef19]" started-at="2023-06-29T21:26:11 IST" name="Home" finished-at="2023-06-29T21:26:19 IST" duration-ms="8531" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Home -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.NewTest@2eae8e6e]" started-at="2023-06-29T12:16:16 IST" name="afterMethod" finished-at="2023-06-29T12:16:16 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.MainTest@8f2ef19]" started-at="2023-06-29T21:26:19 IST" name="afterMethod" finished-at="2023-06-29T21:26:19 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.NewTest@2eae8e6e]" started-at="2023-06-29T12:16:16 IST" name="beforeMethod" finished-at="2023-06-29T12:16:16 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.MainTest@8f2ef19]" started-at="2023-06-29T21:26:19 IST" name="beforeMethod" finished-at="2023-06-29T21:26:19 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="addCart()[pri:2, instance:main.NewTest@2eae8e6e]" started-at="2023-06-29T12:16:16 IST" name="addCart" finished-at="2023-06-29T12:16:16 IST" duration-ms="174" status="PASS">
+        <test-method signature="addCart()[pri:2, instance:main.MainTest@8f2ef19]" started-at="2023-06-29T21:26:19 IST" name="addCart" finished-at="2023-06-29T21:26:19 IST" duration-ms="114" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCart -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.NewTest@2eae8e6e]" started-at="2023-06-29T12:16:16 IST" name="afterMethod" finished-at="2023-06-29T12:16:16 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.MainTest@8f2ef19]" started-at="2023-06-29T21:26:19 IST" name="afterMethod" finished-at="2023-06-29T21:26:19 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.NewTest@2eae8e6e]" started-at="2023-06-29T12:16:16 IST" name="beforeMethod" finished-at="2023-06-29T12:16:16 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.MainTest@8f2ef19]" started-at="2023-06-29T21:26:19 IST" name="beforeMethod" finished-at="2023-06-29T21:26:19 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="cart()[pri:3, instance:main.NewTest@2eae8e6e]" started-at="2023-06-29T12:16:16 IST" name="cart" finished-at="2023-06-29T12:16:20 IST" duration-ms="3666" status="PASS">
+        <test-method signature="cart()[pri:3, instance:main.MainTest@8f2ef19]" started-at="2023-06-29T21:26:19 IST" name="cart" finished-at="2023-06-29T21:26:23 IST" duration-ms="3553" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cart -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.NewTest@2eae8e6e]" started-at="2023-06-29T12:16:20 IST" name="afterMethod" finished-at="2023-06-29T12:16:20 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.MainTest@8f2ef19]" started-at="2023-06-29T21:26:23 IST" name="afterMethod" finished-at="2023-06-29T21:26:23 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.NewTest@2eae8e6e]" started-at="2023-06-29T12:16:20 IST" name="beforeMethod" finished-at="2023-06-29T12:16:20 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.MainTest@8f2ef19]" started-at="2023-06-29T21:26:23 IST" name="beforeMethod" finished-at="2023-06-29T21:26:23 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="yourInfo()[pri:4, instance:main.NewTest@2eae8e6e]" started-at="2023-06-29T12:16:20 IST" name="yourInfo" finished-at="2023-06-29T12:16:23 IST" duration-ms="3370" status="PASS">
+        <test-method signature="yourInfo()[pri:4, instance:main.MainTest@8f2ef19]" started-at="2023-06-29T21:26:23 IST" name="yourInfo" finished-at="2023-06-29T21:26:26 IST" duration-ms="3281" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- yourInfo -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.NewTest@2eae8e6e]" started-at="2023-06-29T12:16:23 IST" name="afterMethod" finished-at="2023-06-29T12:16:23 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.MainTest@8f2ef19]" started-at="2023-06-29T21:26:26 IST" name="afterMethod" finished-at="2023-06-29T21:26:26 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.NewTest@2eae8e6e]" started-at="2023-06-29T12:16:23 IST" name="beforeMethod" finished-at="2023-06-29T12:16:23 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.MainTest@8f2ef19]" started-at="2023-06-29T21:26:26 IST" name="beforeMethod" finished-at="2023-06-29T21:26:26 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="overView()[pri:5, instance:main.NewTest@2eae8e6e]" started-at="2023-06-29T12:16:23 IST" name="overView" finished-at="2023-06-29T12:16:23 IST" duration-ms="203" status="PASS">
+        <test-method signature="overView()[pri:5, instance:main.MainTest@8f2ef19]" started-at="2023-06-29T21:26:26 IST" name="overView" finished-at="2023-06-29T21:26:26 IST" duration-ms="179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- overView -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.NewTest@2eae8e6e]" started-at="2023-06-29T12:16:23 IST" name="afterMethod" finished-at="2023-06-29T12:16:23 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.MainTest@8f2ef19]" started-at="2023-06-29T21:26:26 IST" name="afterMethod" finished-at="2023-06-29T21:26:26 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.NewTest@2eae8e6e]" started-at="2023-06-29T12:16:23 IST" name="beforeMethod" finished-at="2023-06-29T12:16:23 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.MainTest@8f2ef19]" started-at="2023-06-29T21:26:26 IST" name="beforeMethod" finished-at="2023-06-29T21:26:26 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="complt()[pri:6, instance:main.NewTest@2eae8e6e]" started-at="2023-06-29T12:16:23 IST" name="complt" finished-at="2023-06-29T12:16:26 IST" duration-ms="3117" status="PASS">
+        <test-method signature="complt()[pri:6, instance:main.MainTest@8f2ef19]" started-at="2023-06-29T21:26:26 IST" name="complt" finished-at="2023-06-29T21:26:29 IST" duration-ms="3097" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- complt -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.NewTest@2eae8e6e]" started-at="2023-06-29T12:16:26 IST" name="afterMethod" finished-at="2023-06-29T12:16:26 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.NewTest@2eae8e6e]" started-at="2023-06-29T12:16:26 IST" name="beforeMethod" finished-at="2023-06-29T12:16:26 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:main.MainTest@8f2ef19]" started-at="2023-06-29T21:26:29 IST" name="beforeMethod" finished-at="2023-06-29T21:26:29 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="logout()[pri:7, instance:main.NewTest@2eae8e6e]" started-at="2023-06-29T12:16:26 IST" name="logout" finished-at="2023-06-29T12:16:39 IST" duration-ms="12252" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.NewTest@2eae8e6e]" started-at="2023-06-29T12:16:39 IST" name="afterMethod" finished-at="2023-06-29T12:16:39 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.MainTest@8f2ef19]" started-at="2023-06-29T21:26:29 IST" name="afterMethod" finished-at="2023-06-29T21:26:29 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:main.NewTest@2eae8e6e]" started-at="2023-06-29T12:16:39 IST" name="afterClass" finished-at="2023-06-29T12:16:39 IST" duration-ms="58" status="PASS">
+        <test-method signature="logout()[pri:7, instance:main.MainTest@8f2ef19]" started-at="2023-06-29T21:26:29 IST" name="logout" finished-at="2023-06-29T21:26:42 IST" duration-ms="12203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:main.MainTest@8f2ef19]" started-at="2023-06-29T21:26:42 IST" name="afterMethod" finished-at="2023-06-29T21:26:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:main.MainTest@8f2ef19]" started-at="2023-06-29T21:26:42 IST" name="afterClass" finished-at="2023-06-29T21:26:42 IST" duration-ms="56" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- main.NewTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- main.MainTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
