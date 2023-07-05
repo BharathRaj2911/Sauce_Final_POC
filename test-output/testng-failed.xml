@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Test.Final_POC">
+      <class name="com.MainTest.MainTest">
         <methods>
+          <include name="afterMethod"/>
           <include name="afterClass"/>
-          <include name="beforeClass"/>
-          <include name="login5"/>
+          <include name="login" invocation-numbers="3"/>
+          <include name="beforeMethod"/>
+          <include name="beforeclass"/>
         </methods>
-      </class> <!-- com.Test.Final_POC -->
+      </class> <!-- com.MainTest.MainTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
